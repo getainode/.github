@@ -21,6 +21,8 @@ Automatic multi-node clustering. Apache 2.0.
 [![Ray](https://img.shields.io/badge/Ray-distributed-028CF0?style=flat-square)](https://www.ray.io/)
 [![Docker](https://img.shields.io/badge/container-GHCR-2496ED?style=flat-square&logo=docker&logoColor=white)](https://github.com/orgs/getainode/packages)
 
+<a href="https://releasebot.io/updates/getainode/ainode"><img alt="Release Bot — follow AINode updates" src="https://releasebot.io/Full.svg" height="28"></a>
+
 </div>
 
 ---
