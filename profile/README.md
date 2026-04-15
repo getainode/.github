@@ -80,12 +80,20 @@ at 200 Gbps on ConnectX-7.*
 | **[ainode](https://github.com/getainode/ainode)** | Product source — CLI, API, web UI, engines, training |
 | **[ainode.dev](https://github.com/getainode/ainode.dev)** | Marketing site at [ainode.dev](https://ainode.dev) |
 
-### Container images (public on GHCR)
+### Container images
+
+Public on both GHCR (canonical) and Docker Hub (mirror):
 
 ```bash
-docker pull ghcr.io/getainode/ainode:latest        # runtime image (~18 GB)
-docker pull ghcr.io/getainode/ainode-base:latest   # eugr base + CUDA 13
+# GHCR — used by the installer, no rate limits
+docker pull ghcr.io/getainode/ainode:latest
+
+# Docker Hub — mirror, for discoverability
+docker pull argentaios/ainode:latest
 ```
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/argentaios/ainode?style=flat-square&logo=docker&logoColor=white&label=dockerhub%20pulls&color=2496ED)](https://hub.docker.com/r/argentaios/ainode)
+[![GHCR](https://img.shields.io/badge/ghcr-getainode%2Fainode-24292e?style=flat-square&logo=github)](https://github.com/orgs/getainode/packages/container/package/ainode)
 
 ---
 
