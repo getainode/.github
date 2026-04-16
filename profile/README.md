@@ -46,12 +46,11 @@ AINODE_PEERS="10.0.0.2,10.0.0.3" curl -fsSL https://ainode.dev/install | bash
 
 ## What it looks like
 
-### Distributed inference across two DGX Sparks
+### Live 4-node cluster — 487 GB aggregated VRAM
 
-<img src="./images/cluster-view.png" alt="AINode cluster view — two DGX Sparks with tensor-parallel inference" width="100%" />
+<img src="./images/cluster-4node.gif" alt="AINode 4-node cluster — 3 DGX Sparks + ASUS GX10, live topology" width="100%" />
 
-*Two DGX Sparks, one sharded model, 244 GB aggregated VRAM. NCCL over RoCE
-at 200 Gbps on ConnectX-7.*
+*Four GB10 nodes discovering each other automatically. 487 GB VRAM, NCCL over RoCE at 200 Gbps.*
 
 ### Chat — streaming, OpenAI-compatible
 
